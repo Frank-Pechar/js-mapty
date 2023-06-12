@@ -23,4 +23,5 @@ App can be run from: https://frank-pechar-js-mapty.netlify.app/
 - Event Delegation for Elements Not Yet Created in DOM
 - Array methods ever, slice
 - Date.now
+- 
 
