@@ -21,7 +21,7 @@ App can be run from: https://frank-pechar-js-mapty.netlify.app/
 - Protected Fields and Methods for Class Inheritance
 - navigator.geolocation.getCurrentPosition
 - Event Delegation for Elements Not Yet Created in DOM
-- Array methods ever, slice
+- Array methods ever, slice, find, ...rest
 - Date.now
-- 
+- html data
 
