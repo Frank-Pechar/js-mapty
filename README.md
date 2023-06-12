@@ -12,13 +12,15 @@ App can be run from: https://frank-pechar-js-mapty.netlify.app/
 - Leaflet Mapping Library API
 - Use of Local Storage for persistent data
 - Form Data
+- Private Fields
 
 ## Coding Methods and Features Used:
 
-- Base and Sub Classes and Static Methods
+- Base and Sub Classes and Static Methods (class, extends, super, constructor)
 - Private Fields and Methods
 - Protected Fields and Methods for Class Inheritance
 - navigator.geolocation.getCurrentPosition
 - Event Delegation for Elements Not Yet Created in DOM
-- Array methods ever, 
+- Array methods ever, slice
+- Date.now
 
