@@ -21,7 +21,7 @@ App can be run from: https://frank-pechar-js-mapty.netlify.app/
 
 - Base and Sub Classes (class, extends, super, constructor)
 - Used navigator.geolocation.getCurrentPosition()
-- Used html data attribute
+- Use of html data attributes
 - Array methods: every, slice, forEach, push, find, ...rest
 - Date manipulation
 - Event listeners of different types
