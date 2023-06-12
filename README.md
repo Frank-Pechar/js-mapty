@@ -9,7 +9,7 @@ App can be run from: https://frank-pechar-js-mapty.netlify.app/
 ## This App Uses Javascript Features Such As:
 
 - Geolocation API 
-- Mapping Library API
+- Leaflet Mapping Library API
 - Use of Local Storage for persistent data
 - Form Data
 
@@ -18,5 +18,7 @@ App can be run from: https://frank-pechar-js-mapty.netlify.app/
 - Base and Sub Classes and Static Methods
 - Private Fields and Methods
 - Protected Fields and Methods for Class Inheritance
+- navigator.geolocation.getCurrentPosition
 - Event Delegation for Elements Not Yet Created in DOM
+- Array methods ever, 
 
