@@ -1,4 +1,3 @@
-# Mapty Project 
 # Map and Log Workouts App 
 ## JavaScript Project
 ## Desription of App Functionality, Features, and Methods
