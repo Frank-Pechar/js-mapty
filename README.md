@@ -1,5 +1,6 @@
-# Mapty Project -  Workout - Map and Log App 
-# JavaScript Project
+# Mapty Project 
+# Map and Log Workouts App 
+## JavaScript Project
 ## Desription of App Functionality, Features, and Methods
 
 Javascript coding project I completed from Udemy - The Complete Javascript Course 2023: From Zero to Expert by Jonas Schmedtmann. After coding this project through the course I then added additional commenting of the code for educational purposes.
