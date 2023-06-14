@@ -6,6 +6,10 @@ Javascript coding project I completed from Udemy - The Complete Javascript Cours
 
 App can be run from: https://frank-pechar-js-mapty.netlify.app/
 
+## App Description
+
+This App logs and maps running and cycling workouts in a list and on a map. A historical record of workout data is kept by storing data to local storage
+
 ## App Functionality 
 
 Log a Workout
