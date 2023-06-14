@@ -34,4 +34,6 @@ Log a Workout
 - HTML dataset attributes
 - Date manipulation
 
-List of some methods and properties used: class, extends, super(), constructor(), navigator.geolocation.getCurrentPosition(), bind(), dataset, Array methods: every, slice, forEach, push, find, ...rest
+List of some methods and properties used: 
+
+class, extends, super(), constructor(), navigator.geolocation.getCurrentPosition(), bind(), dataset, Array methods: every, slice, forEach, push, find, ...rest
