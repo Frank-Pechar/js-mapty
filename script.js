@@ -21,7 +21,7 @@ class Workout {
     // prettier-ignore
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
-    this.description = `${this.type[0].toUpperCase()}${this.type.slice(1)} on ${
+    this.description = `${this.type[0].toUpperCase()}${this.type.slice(1)} ${
       months[this.date.getMonth()]
     } ${this.date.getDate()}`;
   }
@@ -83,6 +83,7 @@ class App {
   #mapZoomLevel = 13;
   #mapEvent;
   #workouts = [];
+  #workoutsDom;
 
   constructor() {
     // Get user's position
@@ -137,6 +138,13 @@ class App {
   _showForm(mapE) {
     this.#mapEvent = mapE;
     form.classList.remove('hidden');
+
+    // hide workout list while entering data
+    this.#workoutsDom = document.querySelectorAll('.workout');
+    this.#workoutsDom.forEach((workout) => {
+      workout.style.display = 'none';
+    });
+
     inputDistance.focus();
   }
 
@@ -210,6 +218,11 @@ class App {
     // Render workout on map as marker
     this._renderWorkoutMarker(workout);
 
+    // re-display workout list after processing input
+    this.#workoutsDom.forEach((workout) => {
+      workout.style.display = 'flex';
+    });
+
     // Render workout on list
     this._renderWorkout(workout);
 
@@ -244,6 +257,7 @@ class App {
     let html = `
       <li class="workout workout--${workout.type}" data-id="${workout.id}">
         <h2 class="workout__title">${workout.description}</h2>
+        <div class="workout__details-group">
         <div class="workout__details">
           <span class="workout__icon">${
             workout.type === 'running' ? '🏃‍♂️' : '🚴‍♀️'
@@ -270,6 +284,7 @@ class App {
           <span class="workout__value">${workout.cadence}</span>
           <span class="workout__unit">spm</span>
         </div>
+        </div>
       </li>
       `;
 
@@ -284,6 +299,7 @@ class App {
           <span class="workout__icon">⛰</span>
           <span class="workout__value">${workout.elevationGain}</span>
           <span class="workout__unit">m</span>
+        </div>
         </div>
       </li>
       `;
