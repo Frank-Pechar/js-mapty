@@ -33,6 +33,7 @@ Log a Workout
 - Protected methods
 - HTML dataset attributes
 - Date manipulation
+- Responsive design techniques
 
 List of some methods and properties used: 
 
