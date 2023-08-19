@@ -170,11 +170,11 @@ class App {
 
   _newWorkout(e) {
     // validate input data
+    e.preventDefault();
     const validInputs = (...inputs) =>
       inputs.every((inp) => Number.isFinite(inp));
     const allPositive = (...inputs) => inputs.every((inp) => inp > 0);
-
-    e.preventDefault();
+    // e.preventDefault();
 
     // Get data from form
     const type = inputType.value;
