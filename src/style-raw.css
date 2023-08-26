@@ -184,6 +184,13 @@ a:visited {
   background-color: var(--color-light--3);
   font-size: 1.5rem;
   color: #000;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.form__btn:hover {
+  transform: scale(1.05) translateY(-0.1rem);
+  filter: brightness(1.05);
 }
 
 .copyright {
