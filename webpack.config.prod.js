@@ -10,7 +10,7 @@ module.exports = {
     path: path.resolve(__dirname, 'assets', 'scripts'),
     publicPath: 'assets/scripts/',
   },
-  devtool: 'eval-source-map',
+  devtool: 'source-map',
   plugins: [new CleanPlugin.CleanWebpackPlugin()],
   module: {
     rules: [
